@@ -1,0 +1,18 @@
+USATO GARANTITO
+
+
+
+ID                 Numero Incrementale
+Marca              Stringa         	       varchar(15)           NOT NULL
+Modello            Stringa                 varchar(60)           NOT NULL
+Cilindrata         Numero                  FLOAT(1,1)            NOT NULL
+
+Alimentazione      Stringa                 varchar(20)           NOT NULL
+Cambio             Stringa                 varchar(11)           NOT NULL
+Anno               Data                    year                  NOT NULL
+
+Km Percorsi        Numero                  mediumint
+Prezzo             Numero                  bigint                NOT NULL
+Disponibilità      Booleano                TINYINT               DEFAULT
+
+Poster	           stringa                 varchar()             DEFAULT
